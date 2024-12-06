@@ -51,36 +51,6 @@ logy=0
 rawfile= [rawfilestart]_ac_mostt.spice.raw
 autoload=1
 }
-B 2 3150 -530 3780 -200 {flags=graph,unlocked
-sim_type=ac
-y1=-180
-y2=180
-divy=4
-subdivy=1
-x1=5
-x2=11
-divx=6
-subdivx=8
-
-
-
-dataset=-1
-
-
-hilight_wave=-1
-logx=1
-xlabmag=1.4
-
-rawfile= [rawfilestart]_ac_mostt.spice.raw
-autoload=1
-color="21 21 21 21 21 21 21"
-node="\\"i(vld6) db20()\\"
-\\"i(vld5) db20()\\"
-\\"i(vld4) db20()\\"
-\\"i(vld3) db20()\\"
-\\"i(vld2) db20()\\"
-\\"i(vld1) db20()\\"
-\\"i(vld0) db20()\\""}
 B 2 80 -1440 710 -1110 {flags=graph,unlocked
 
 sim_type=dc
@@ -176,7 +146,7 @@ dataset=-1
 
 autoload=1
 rawfile=[rawfilestart]_dc_mostt.spice.raw}
-B 2 -560 -1100 70 -770 {flags=graph,unlocked
+B 2 3140 -1280 3770 -950 {flags=graph,unlocked
 
 sim_type=dc
 y1=3
@@ -201,44 +171,44 @@ vdd%[rawfilestart]_temp_mossf.spice.raw
 vdd%[rawfilestart]_temp_mosfs.spice.raw"}
 T {AC Analysis} 3150 -910 0 0 0.6 0.6 { layer=2}
 T {tcleval(loaded .raw files: 
-[xschem raw info])} 880 -240 0 0 0.3 0.3 {floater=true layer=16}
+[xschem raw info])} 1610 -320 0 0 0.3 0.3 {floater=true layer=16}
 N 800 -290 800 -270 {
 lab=VSS}
 N 800 -530 800 -510 {
 lab=#net1}
 N 1760 -1140 1760 -1070 {
-lab=VDD}
-N 1720 -640 1720 -590 {lab=VSS}
-N 1720 -590 1760 -590 {lab=VSS}
-N 1760 -610 1760 -590 {lab=VSS}
-N 1760 -590 1760 -460 {lab=VSS}
-N 1440 -610 1440 -460 {lab=VSS}
+lab=#net2}
+N 1720 -640 1720 -590 {lab=#net3}
+N 1720 -590 1760 -590 {lab=#net3}
+N 1760 -610 1760 -590 {lab=#net3}
+N 1760 -590 1760 -460 {lab=#net3}
+N 1440 -610 1440 -460 {lab=#net4}
 N 1600 -1140 1600 -1070 {
-lab=VDD}
+lab=#net5}
 N 1440 -1140 1440 -1070 {
-lab=VDD}
-N 1540 -800 1560 -800 {lab=#net2}
-N 1440 -990 1440 -830 {lab=#net3}
-N 1600 -850 1600 -830 {lab=#net2}
+lab=#net6}
+N 1540 -800 1560 -800 {lab=#net7}
+N 1440 -990 1440 -830 {lab=#net8}
+N 1600 -850 1600 -830 {lab=#net7}
 N 1760 -880 1760 -830 {lab=REF1.2}
-N 1760 -770 1760 -670 {lab=#net4}
-N 1540 -850 1540 -800 {lab=#net2}
-N 1480 -800 1540 -800 {lab=#net2}
-N 1540 -850 1600 -850 {lab=#net2}
-N 1600 -1010 1600 -850 {lab=#net2}
-N 1440 -990 1500 -990 {lab=#net3}
-N 1440 -1010 1440 -990 {lab=#net3}
-N 1500 -1040 1500 -990 {lab=#net3}
-N 1440 -720 1440 -670 {lab=#net5}
+N 1760 -770 1760 -670 {lab=#net9}
+N 1540 -850 1540 -800 {lab=#net7}
+N 1480 -800 1540 -800 {lab=#net7}
+N 1540 -850 1600 -850 {lab=#net7}
+N 1600 -1010 1600 -850 {lab=#net7}
+N 1440 -990 1500 -990 {lab=#net8}
+N 1440 -1010 1440 -990 {lab=#net8}
+N 1500 -1040 1500 -990 {lab=#net8}
+N 1440 -720 1440 -670 {lab=#net10}
 N 1760 -1010 1760 -880 {lab=REF1.2}
-N 2580 -530 2580 -460 {lab=VSS}
-N 1600 -770 1600 -460 {lab=VSS}
-N 1920 -530 1920 -460 {lab=VSS}
-N 1920 -620 1920 -590 {lab=#net6}
-N 1920 -1140 1920 -1070 {lab=VDD}
-N 1920 -620 1980 -620 {lab=#net6}
-N 1920 -1010 1920 -620 {lab=#net6}
-N 1980 -620 1980 -560 {lab=#net6}
+N 2580 -530 2580 -460 {lab=#net11}
+N 1600 -770 1600 -460 {lab=#net12}
+N 1920 -530 1920 -460 {lab=#net13}
+N 1920 -620 1920 -590 {lab=#net14}
+N 1920 -1140 1920 -1070 {lab=#net15}
+N 1920 -620 1980 -620 {lab=#net14}
+N 1920 -1010 1920 -620 {lab=#net14}
+N 1980 -620 1980 -560 {lab=#net14}
 N 2630 -820 2660 -820 {
 lab=DRV_SHUNT}
 N 2630 -800 2660 -800 {
@@ -248,10 +218,10 @@ N 2560 -740 2560 -640 {lab=VSS}
 N 2630 -960 2630 -830 {lab=VDD}
 N 2660 -800 2760 -800 {
 lab=DRV_SHUNT}
-N 2400 -770 2400 -750 {lab=#net7}
-N 2400 -850 2400 -770 {lab=#net7}
+N 2400 -770 2400 -750 {lab=#net16}
+N 2400 -850 2400 -770 {lab=#net16}
 N 2630 -780 2630 -640 {lab=VSS}
-N 2580 -740 2580 -590 {lab=#net8}
+N 2580 -740 2580 -590 {lab=#net17}
 N 2800 -560 2800 -460 {lab=SHUNT_GND}
 N 2800 -560 2960 -560 {lab=SHUNT_GND}
 N 2800 -770 2800 -560 {lab=SHUNT_GND}
@@ -259,18 +229,18 @@ N 1760 -880 2240 -880 {lab=REF1.2}
 N 2240 -1040 2960 -1040 {lab=REF1.2}
 N 2240 -880 2240 -830 {lab=REF1.2}
 N 2240 -1040 2240 -880 {lab=REF1.2}
-N 2400 -770 2500 -770 {lab=#net7}
+N 2400 -770 2500 -770 {lab=#net16}
 N 2240 -830 2500 -830 {lab=REF1.2}
-N 2800 -1140 2800 -830 {lab=VDD}
-N 2560 -1140 2560 -860 {lab=VDD}
-N 2400 -1140 2400 -910 {lab=VDD}
-N 2400 -690 2400 -460 {lab=VSS}
-N 1500 -1040 2080 -1040 {lab=#net3}
-N 1480 -1040 1500 -1040 {lab=#net3}
-N 1980 -560 2540 -560 {lab=#net6}
-N 1960 -560 1980 -560 {lab=#net6}
-N 1390 -720 1440 -720 {lab=#net5}
-N 1440 -770 1440 -720 {lab=#net5}
+N 2800 -1140 2800 -830 {lab=#net18}
+N 2560 -1140 2560 -860 {lab=#net19}
+N 2400 -1140 2400 -910 {lab=#net20}
+N 2400 -690 2400 -460 {lab=#net21}
+N 1500 -1040 2080 -1040 {lab=#net8}
+N 1480 -1040 1500 -1040 {lab=#net8}
+N 1980 -560 2540 -560 {lab=#net14}
+N 1960 -560 1980 -560 {lab=#net14}
+N 1390 -720 1440 -720 {lab=#net10}
+N 1440 -770 1440 -720 {lab=#net10}
 N 1280 -720 1330 -720 {lab=REFADJ}
 N 1200 -1120 1280 -1120 {lab=VDD}
 N 1280 -1200 1280 -1120 {lab=VDD}
@@ -325,7 +295,7 @@ C = [set C 1]
 
 .raw-file path and namebase: [rawfilestart] 
 )"}
-C {simulator_commands.sym} 550 -1950 0 0 {name="NGSPiCE TCL"
+C {simulator_commands.sym} 770 -990 0 0 {name="NGSPiCE TCL"
 simulator=ngspice
 only_toplevel=true 
 
@@ -403,7 +373,7 @@ value="tcleval(
 )
 "
 spice_ignore=true}
-C {launcher.sym} 880 -1680 0 0 {name=h12
+C {launcher.sym} 1280 -1520 0 0 {name=h12
 descr="load waves"
 tclcommand="
 proc load_wavefoarms \{\} \{
@@ -448,7 +418,7 @@ spice code
 
 [xschem getprop instance \\"Xyce TCL\\" value]
 )"}
-C {simulator_commands.sym} 710 -1950 0 0 {name="Xyce TCL"
+C {simulator_commands.sym} 930 -990 0 0 {name="Xyce TCL"
 simulator=xyce
 only_toplevel=true 
 lvs_ignore=open
@@ -532,7 +502,7 @@ C {gndoli.sym} 880 -290 0 0 {name=l25 lab=GND}
 C {vsource.sym} 880 -320 0 0 {name=Vzero value=0  net_name=true
 lvs_ignore=open}
 C {lab_pin.sym} 880 -350 0 1 {name=p8 lab=0  net_name=true}
-C {simulator_commands.sym} 710 -2190 0 0 {name=Xyce TCL1
+C {simulator_commands.sym} 930 -1230 0 0 {name=Xyce TCL1
 simulator=xyce
 only_toplevel=true 
 
@@ -606,14 +576,14 @@ value="tcleval(
 )
 "
 spice_ignore=true}
-C {launcher.sym} 3210 -930 0 0 {name=h1
+C {launcher.sym} 1280 -1600 0 0 {name=h1
 descr="xschem annotate_op"
 tclcommand="
 xschem raw_clear
 xschem annotate_op $\{netlist_dir\}/$\{schematic\}_mostt.spice.raw
 "
 }
-C {launcher.sym} 3210 -970 0 0 {
+C {launcher.sym} 1280 -1680 0 0 {
 descr="xyce netlist simulate corners ALL" 
 
 tclcommand="
@@ -907,7 +877,7 @@ device=resistor
 m=1
 lvs_ignore=open}
 C {pwroli.sym} 1280 -1000 0 0 {name=l5 lab=VSS}
-C {launcher.sym} 1040 -1520 0 0 {name=h2
+C {launcher.sym} 1280 -1440 0 0 {name=h2
 descr="write LVS netlist"
 tclcommand="
 	xschem set netlist_type spice

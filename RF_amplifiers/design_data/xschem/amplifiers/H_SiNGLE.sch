@@ -44,7 +44,6 @@ N 1400 -320 1420 -320 {lab=#net2}
 N 2080 -320 2120 -320 {lab=#net12}
 N 2080 -440 2080 -320 {lab=#net12}
 N 1520 -850 1520 -440 {lab=#net12}
-N 1680 -370 1760 -370 {lab=#net15}
 N 1680 -530 1680 -370 {lab=#net15}
 N 1760 -370 1760 -320 {lab=#net15}
 N 1760 -320 1800 -320 {lab=#net15}
@@ -88,6 +87,7 @@ N 1680 -640 2320 -640 {lab=#net11}
 N 2320 -800 2320 -750 {lab=#net20}
 N 2320 -800 2400 -800 {lab=#net20}
 N 2400 -850 2400 -800 {lab=#net20}
+N 1680 -370 1760 -370 {lab=#net15}
 C {ipin.sym} 1120 -560 0 0 {name=p3 lab=in
 }
 C {iopin.sym} 640 -240 0 1 {name=p8 lab=VSS
@@ -214,6 +214,11 @@ spiceprefix=X
 Nx=1
 le=900e-9
 Sub=VSS}
+C {res.sym} 2400 -280 2 0 {name=R7
+value=700
+footprint=1206
+device=resistor
+m=1}
 C {pwroli.sym} 2400 -1040 2 0 {name=l13 lab=VDD
 }
 C {ammeter.sym} 2400 -1010 0 0 {name=Vmeas10 savecurrent=true
@@ -246,11 +251,6 @@ value=20k
 footprint=1206
 device=resistor
 m=1}
-C {capa.sym} 1800 -370 3 0 {name=C1
-m=1
-value=100p
-footprint=1206
-device="ceramic capacitor"}
 C {pwroli.sym} 2240 -1040 2 0 {name=l2 lab=VDD
 }
 C {ammeter.sym} 2240 -1010 0 0 {name=Vmeas2 savecurrent=true
@@ -308,33 +308,9 @@ value=6k
 footprint=1206
 device=resistor
 m=1}
-C {rppd.sym} 1220 -950 0 0 {name=R6
-w=1e-6
-l=19.1e-6
-model=rppd
-spiceprefix=X
-b=0
-m=1
-}
-C {rppd.sym} 2400 -280 0 0 {name=R10
-w=2e-6
-l=5.2e-6
-model=rppd
-spiceprefix=X
-b=0
-m=1
-}
-C {rppd.sym} 2170 -740 0 0 {name=R17
-w=1e-6
-l=11.4e-6
-model=rppd
-spiceprefix=X
-b=0
-m=1
-}
-C {cap_cmim.sym} 1660 -770 0 0 {name=C2
+C {cap_cmim.sym} 1800 -370 3 0 {name=C2
 model=cap_cmim
-w=75.0e-6
-l=75.0e-6
+w=\{5*75e-6\}
+l=75e-6
 m=1
 spiceprefix=X}
