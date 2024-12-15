@@ -3,14 +3,13 @@
 3 SiGe BjT amplifiers
 #####################
 
-
 .. toctree::
     :hidden:
     
     specification
     amplifiers
-    bandgap
     regulator
+    ota
     experiments
     designdata
     validation

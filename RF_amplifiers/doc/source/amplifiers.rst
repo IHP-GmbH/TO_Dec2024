@@ -10,7 +10,7 @@ schematic
 
 
 this single input amplifier ist DC-coupled and GND referenced. it drives a laser diode over Q1. its bias current is measured via Q8 and regulated from a norton amplifer build from Q11, Q7 and Q9. the low-pass-corner is set by R12 and C2 (that is also aviable over test-pads inside the power-ring of the chip). 
-the RF-path goes over a base-circuit Q6 to Q10 and Q8. R3 is used to set the gain.
+the RF-path goes over a base-circuit Q6 to Q10 and Q1. R3 is used to set the gain.
 Q2's job is to improve the themperature dependence of the bias-current.
 
 
