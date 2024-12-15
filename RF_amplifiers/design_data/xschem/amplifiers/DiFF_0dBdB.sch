@@ -4,31 +4,6 @@ K {}
 V {}
 S {}
 E {}
-B 2 2710 -1780 3200 -1450 {flags=graph,unlocked
-
-sim_type=dc
-y1=-3
-y2=3
-divy=4
-subdivy=1
-x1=-3
-x2=3
-divx=6
-subdivx=1
-
-
-dataset=-1
-
-autoload=1
-rawfile=$netlist_dir/hsens10_3.5mA_01_test_xyce_dc_mostt.spice.raw
-
-color="4 4 4 4 4 4"
-node="sweep
-cml
-cms
-gnd
-minus
-minusl"}
 T {DC Analysis} 2080 -1820 0 0 0.6 0.6 { layer=2}
 N 640 -240 720 -240 {
 lab=VSS}

@@ -1,0 +1,32 @@
+##############################
+shunt regulator 3.3V
+##############################
+
+schematic
+#########
+
+.. image:: _static/shunt.svg
+    :align: center
+
+this is a shunt-regulator for 3.3V and max. 50mA using a simple bandgap-reference. the reference uses MOSFET and BjT temperature coefficients, and needs only one BjT.
+
+
+layout
+######
+
+.. image:: _static/reg_layout.png
+    :align: center
+
+options
+#######
+
+there is the option to filter the refernce output via a capacitor from the ref-pad to GND. 
+
+its also possibel to adjust the temperature-turning-point via the adj-pad and the voltage via the ref pad.
+
+
+simulation
+##########
+
+:download:`PDF with Xyce simulation <_static/SHUNT_3V1.pdf>`
+

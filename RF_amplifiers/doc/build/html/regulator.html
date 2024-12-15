@@ -1,0 +1,140 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>shunt regulator 3.3V &mdash; FMD_QNC_amps_filled 0.1 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
+
+  
+      <script src="_static/jquery.js?v=5d32c60e"></script>
+      <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+      <script src="_static/documentation_options.js?v=2709fde1"></script>
+      <script src="_static/doctools.js?v=9bcbadda"></script>
+      <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="experiments" href="experiments.html" />
+    <link rel="prev" title="amplifier" href="amplifiers.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            FMD_QNC_amps_filled
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="specification.html">specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amplifiers.html">amplifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amplifiers.html#differential-amplifier">differential amplifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amplifiers.html#dual-input-differential-amplifier">dual input differential amplifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="amplifiers.html#amplifier-simulations">amplifier simulations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">shunt regulator 3.3V</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#schematic">schematic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#layout">layout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#options">options</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#simulation">simulation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="experiments.html">experiments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="designdata.html">design data and design process description</a></li>
+<li class="toctree-l1"><a class="reference internal" href="validation.html">validation of the circuits</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">FMD_QNC_amps_filled</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">shunt regulator 3.3V</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/regulator.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="shunt-regulator-3-3v">
+<h1>shunt regulator 3.3V<a class="headerlink" href="#shunt-regulator-3-3v" title="Link to this heading"></a></h1>
+<section id="schematic">
+<h2>schematic<a class="headerlink" href="#schematic" title="Link to this heading"></a></h2>
+<img alt="_images/shunt.svg" class="align-center" src="_images/shunt.svg" />
+<p>this is a shunt-regulator for 3.3V and max. 50mA using a simple bandgap-reference. the reference uses MOSFET and BjT temperature coefficients, and needs only one BjT.</p>
+</section>
+<section id="layout">
+<h2>layout<a class="headerlink" href="#layout" title="Link to this heading"></a></h2>
+<img alt="_images/reg_layout.png" class="align-center" src="_images/reg_layout.png" />
+</section>
+<section id="options">
+<h2>options<a class="headerlink" href="#options" title="Link to this heading"></a></h2>
+<p>there is the option to filter the refernce output via a capacitor from the ref-pad to GND.</p>
+<p>its also possibel to adjust the temperature-turning-point via the adj-pad and the voltage via the ref pad.</p>
+</section>
+<section id="simulation">
+<h2>simulation<a class="headerlink" href="#simulation" title="Link to this heading"></a></h2>
+<p><a class="reference download internal" download="" href="_downloads/a6a1a231d719974e6ef8cfec4b6da38e/SHUNT_3V1.pdf"><code class="xref download docutils literal notranslate"><span class="pre">PDF</span> <span class="pre">with</span> <span class="pre">Xyce</span> <span class="pre">simulation</span></code></a></p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="amplifiers.html" class="btn btn-neutral float-left" title="amplifier" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="experiments.html" class="btn btn-neutral float-right" title="experiments" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, iHP Open PDK.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
