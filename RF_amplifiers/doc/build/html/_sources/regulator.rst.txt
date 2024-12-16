@@ -8,7 +8,7 @@ schematic
 .. image:: _static/shunt.svg
     :align: center
 
-this is a shunt-regulator for 3.3V and max. 50mA using a simple bandgap-reference. the reference uses MOSFET and BjT temperature coefficients, and needs only one BjT.
+this is a shunt-regulator for 3.3V and max. 50mA using a simple band-gap-reference. the reference uses MOSFET and BjT temperature coefficients, and needs only one BjT.
 
 
 layout
@@ -20,9 +20,9 @@ layout
 options
 #######
 
-there is the option to filter the refernce output via a capacitor from the ref-pad to GND. 
+there is the option to filter the reference output via a capacitor from the ref-pad to GND. 
 
-its also possibel to adjust the temperature-turning-point via the adj-pad and the voltage via the ref pad.
+its also possible to adjust the temperature-turning-point via the adj-pad and the voltage via the ref pad.
 
 
 simulation

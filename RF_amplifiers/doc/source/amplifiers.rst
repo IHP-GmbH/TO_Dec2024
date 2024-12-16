@@ -20,7 +20,7 @@ layout
 .. image:: _static/single_layout.png
     :align: center
 
-the RPPD resistors are layouted that way, because i had problems using LVS with resistors and was hoping it works with the simples shape. but in the end, i didn't manage to make LVS work anyway.
+the RPPD resistors are layout that way, because i had problems using LVS with resistors and was hoping it works with the simples shape. but in the end, i didn't manage to make LVS work anyway.
 
 
 
@@ -71,7 +71,7 @@ layout
     :align: center
 
 
-on the left side of the amplifer the for 50Ω resistors are connected to the input-microstriplines.
+on the left side of the amplifier the for 50Ω resistors are connected to the input-microstriplines.
 
 
 
