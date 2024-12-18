@@ -1,0 +1,609 @@
+Title: ** sch_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/amplifiers_TB_xyce.sch
+Date: Sun Dec 15 12:26:41 2024
+Plotname: DC transfer characteristic
+Flags: real
+No. Variables: 545
+No. Points: 1                 
+Variables:
+	0	sweep	voltage
+	1	V(NET5)	voltage
+	2	V(X2:XQ6:T)	voltage
+	3	V(NET8)	voltage
+	4	V(X1:XQ7:S1)	voltage
+	5	V(X1:NET17)	voltage
+	6	V(X2:NET5)	voltage
+	7	V(NET7)	voltage
+	8	V(X12:XQ7:T)	voltage
+	9	V(X3:NET2)	voltage
+	10	V(X4:NET3)	voltage
+	11	V(X3:XQ4:T)	voltage
+	12	V(X12:XQ7:S1)	voltage
+	13	V(X3:NET8)	voltage
+	14	V(X1:NET25)	voltage
+	15	V(X3:XQ3:T)	voltage
+	16	V(H_SINGLE)	voltage
+	17	V(X3:NET13)	voltage
+	18	V(X1:XQ14:S1)	voltage
+	19	V(NET13)	voltage
+	20	V(X1:XQ7:T)	voltage
+	21	V(X4:XQ8:T)	voltage
+	22	V(X12:XQ1:S1)	voltage
+	23	V(X3:XQ1:T)	voltage
+	24	V(X4:NET17)	voltage
+	25	V(X1:XQ10:T)	voltage
+	26	V(X4:XQ8:S1)	voltage
+	27	V(X4:XQ9:S1)	voltage
+	28	V(X1:NET24)	voltage
+	29	V(X1:NET6)	voltage
+	30	V(X3:NET5)	voltage
+	31	V(NET16)	voltage
+	32	V(NET32)	voltage
+	33	V(X2:NET11)	voltage
+	34	V(X1:XQ6:T)	voltage
+	35	V(H_DIFF_0DB_CM)	voltage
+	36	V(X12:NET1)	voltage
+	37	V(X3:XQ9:S1)	voltage
+	38	V(X2:NET3)	voltage
+	39	V(X3:XQ10:T)	voltage
+	40	V(X4:NET16)	voltage
+	41	V(X1:NET3)	voltage
+	42	V(X2:XQ10:S1)	voltage
+	43	V(X2:NET17)	voltage
+	44	V(X3:NET11)	voltage
+	45	V(X3:XQ12:S1)	voltage
+	46	V(X1:NET9)	voltage
+	47	V(X2:NET22)	voltage
+	48	V(X4:NET14)	voltage
+	49	V(X2:XQ8:T)	voltage
+	50	V(X3:XQ4:S1)	voltage
+	51	V(X1:NET26)	voltage
+	52	V(X3:NET4)	voltage
+	53	V(X1:XQ6:S1)	voltage
+	54	V(X2:NET8)	voltage
+	55	V(X1:NET27)	voltage
+	56	V(X4:NET7)	voltage
+	57	V(X12:XQ9:T)	voltage
+	58	V(X4:NET11)	voltage
+	59	V(NET18)	voltage
+	60	V(GND)	voltage
+	61	V(X12:NET7)	voltage
+	62	V(H_DIFF_0DB)	voltage
+	63	V(X1:NET16)	voltage
+	64	V(X12:NET4)	voltage
+	65	V(X1:XQ4:S1)	voltage
+	66	V(X2:XQ10:T)	voltage
+	67	V(X3:NET22)	voltage
+	68	V(X2:XQ8:S1)	voltage
+	69	V(X1:XQ1:S1)	voltage
+	70	V(X4:NET1)	voltage
+	71	V(X1:NET2)	voltage
+	72	V(X2:XQ14:S1)	voltage
+	73	V(X4:NET23)	voltage
+	74	V(X3:NET14)	voltage
+	75	V(X2:NET21)	voltage
+	76	V(X1:NET12)	voltage
+	77	V(X2:NET1)	voltage
+	78	V(X3:XQ11:T)	voltage
+	79	V(X4:NET13)	voltage
+	80	V(X4:XQ10:T)	voltage
+	81	V(X1:NET4)	voltage
+	82	V(X1:ODN)	voltage
+	83	V(X4:NET9)	voltage
+	84	V(X12:NET2)	voltage
+	85	V(X12:XQ11:T)	voltage
+	86	V(X2:NET16)	voltage
+	87	V(X2:XQ9:T)	voltage
+	88	V(NET10)	voltage
+	89	V(NET22)	voltage
+	90	V(X4:NET2)	voltage
+	91	V(NET26)	voltage
+	92	V(X3:NET9)	voltage
+	93	V(X2:NET23)	voltage
+	94	V(X12:XQ9:S1)	voltage
+	95	V(X4:XQ12:T)	voltage
+	96	V(NET2)	voltage
+	97	V(NET23)	voltage
+	98	V(NET4)	voltage
+	99	V(NET25)	voltage
+	100	V(X3:NET16)	voltage
+	101	V(X3:XQ3:S1)	voltage
+	102	V(X2:XQ5:T)	voltage
+	103	V(X2:XQ3:S1)	voltage
+	104	V(NET28)	voltage
+	105	V(X12:NET13)	voltage
+	106	V(X1:XQ14:T)	voltage
+	107	V(X12:NET19)	voltage
+	108	V(X12:XQ10:T)	voltage
+	109	V(X3:XQ12:T)	voltage
+	110	V(X2:NET26)	voltage
+	111	V(H_DIFF_15DB_CM)	voltage
+	112	V(X2:NET10)	voltage
+	113	V(SIGNAL)	voltage
+	114	V(X12:XQ2:T)	voltage
+	115	V(X3:XQ10:S1)	voltage
+	116	V(X3:NET23)	voltage
+	117	V(X1:NET22)	voltage
+	118	V(X12:XQ2:S1)	voltage
+	119	V(X12:NET8)	voltage
+	120	V(X3:NET17)	voltage
+	121	V(X1:XQ2:T)	voltage
+	122	V(NET21)	voltage
+	123	V(X4:XQ1:T)	voltage
+	124	V(X1:XQ8:T)	voltage
+	125	V(X2:XQ2:T)	voltage
+	126	V(NET11)	voltage
+	127	V(X3:XQ7:S1)	voltage
+	128	V(X1:XQ1:T)	voltage
+	129	V(X2:NET14)	voltage
+	130	V(X3:XQ1:S1)	voltage
+	131	V(X3:NET3)	voltage
+	132	V(X3:NET19)	voltage
+	133	V(X4:XQ11:S1)	voltage
+	134	V(X1:NET11)	voltage
+	135	V(X2:XQ3:T)	voltage
+	136	V(X2:XQ4:T)	voltage
+	137	V(X4:XQ12:S1)	voltage
+	138	V(X1:XQ9:T)	voltage
+	139	V(X4:XQ9:T)	voltage
+	140	V(NET24)	voltage
+	141	V(X4:NET15)	voltage
+	142	V(X3:XQ7:T)	voltage
+	143	V(X1:NET13)	voltage
+	144	V(X2:NET25)	voltage
+	145	V(X12:XQ8:S1)	voltage
+	146	V(X2:NET7)	voltage
+	147	V(X4:NET21)	voltage
+	148	V(X1:XQ10:S1)	voltage
+	149	V(X3:XQ5:S1)	voltage
+	150	V(NET12)	voltage
+	151	V(X3:XQ11:S1)	voltage
+	152	V(X1:XQ5:S1)	voltage
+	153	V(X2:NET6)	voltage
+	154	V(X1:NET15)	voltage
+	155	V(X2:XQ11:S1)	voltage
+	156	V(X1:XQ9:S1)	voltage
+	157	V(VSS)	voltage
+	158	V(X1:NET1)	voltage
+	159	V(X4:XQ4:T)	voltage
+	160	V(X1:XQ5:T)	voltage
+	161	V(X1:ODP)	voltage
+	162	V(X1:NET8)	voltage
+	163	V(X1:NET7)	voltage
+	164	V(X4:XQ3:S1)	voltage
+	165	V(X3:NET18)	voltage
+	166	V(X3:XQ8:S1)	voltage
+	167	V(NET3)	voltage
+	168	V(X12:XQ1:T)	voltage
+	169	V(X4:NET12)	voltage
+	170	V(X3:NET20)	voltage
+	171	V(X4:NET4)	voltage
+	172	V(X2:XQ7:S1)	voltage
+	173	V(X2:NET9)	voltage
+	174	V(X1:XQ8:S1)	voltage
+	175	V(X2:NET4)	voltage
+	176	V(X1:XQ11:T)	voltage
+	177	V(X2:NET15)	voltage
+	178	V(X12:NET11)	voltage
+	179	V(X3:XQ9:T)	voltage
+	180	V(X3:NET10)	voltage
+	181	V(NET27)	voltage
+	182	V(X1:XQ2:S1)	voltage
+	183	V(X4:XQ10:S1)	voltage
+	184	V(X4:NET18)	voltage
+	185	V(X2:NET12)	voltage
+	186	V(X1:XQ11:S1)	voltage
+	187	V(X4:NET6)	voltage
+	188	V(VDD)	voltage
+	189	V(X12:NET3)	voltage
+	190	V(X3:NET15)	voltage
+	191	V(NET33)	voltage
+	192	V(X2:XQ4:S1)	voltage
+	193	V(X1:NET14)	voltage
+	194	V(X2:NET2)	voltage
+	195	V(X2:NET24)	voltage
+	196	V(NET6)	voltage
+	197	V(X12:NET5)	voltage
+	198	V(X2:XQ7:T)	voltage
+	199	V(X1:NET5)	voltage
+	200	V(H_DIFF_15DB)	voltage
+	201	V(X2:NET19)	voltage
+	202	V(X4:NET10)	voltage
+	203	V(X3:NET1)	voltage
+	204	V(X2:NET13)	voltage
+	205	V(X12:XQ6:T)	voltage
+	206	V(NET1)	voltage
+	207	V(X4:XQ5:T)	voltage
+	208	V(X1:XQ4:T)	voltage
+	209	V(X4:XQ4:S1)	voltage
+	210	V(NET20)	voltage
+	211	V(X3:NET12)	voltage
+	212	V(X1:NET23)	voltage
+	213	V(X4:XQ11:T)	voltage
+	214	V(X12:NET16)	voltage
+	215	V(NET19)	voltage
+	216	V(X12:NET9)	voltage
+	217	V(X2:XQ2:S1)	voltage
+	218	V(X2:ODN)	voltage
+	219	V(X4:XQ1:S1)	voltage
+	220	V(X2:ODP)	voltage
+	221	V(X2:XQ6:S1)	voltage
+	222	V(X12:NET6)	voltage
+	223	V(X12:XQ6:S1)	voltage
+	224	V(X1:NET21)	voltage
+	225	V(X12:NET12)	voltage
+	226	V(X1:NET20)	voltage
+	227	V(X1:XQ3:T)	voltage
+	228	V(X12:NET14)	voltage
+	229	V(X12:XQ8:T)	voltage
+	230	V(X12:XQ11:S1)	voltage
+	231	V(X4:XQ7:S1)	voltage
+	232	V(X1:NET10)	voltage
+	233	V(X2:XQ1:S1)	voltage
+	234	V(X3:XQ8:T)	voltage
+	235	V(X2:XQ9:S1)	voltage
+	236	V(X1:NET18)	voltage
+	237	V(X4:XQ5:S1)	voltage
+	238	V(X2:XQ11:T)	voltage
+	239	V(X12:NET18)	voltage
+	240	V(NET15)	voltage
+	241	V(X4:XQ3:T)	voltage
+	242	V(X2:NET20)	voltage
+	243	V(X4:NET8)	voltage
+	244	V(X2:XQ14:T)	voltage
+	245	V(X1:XQ3:S1)	voltage
+	246	V(X4:XQ7:T)	voltage
+	247	V(X2:NET18)	voltage
+	248	V(X1:NET19)	voltage
+	249	V(X4:NET20)	voltage
+	250	V(X4:NET22)	voltage
+	251	V(X2:XQ1:T)	voltage
+	252	V(X3:NET7)	voltage
+	253	V(X4:NET19)	voltage
+	254	V(X12:NET17)	voltage
+	255	V(X2:NET27)	voltage
+	256	V(X3:NET6)	voltage
+	257	V(NET14)	voltage
+	258	V(X4:NET5)	voltage
+	259	V(X12:XQ5:S1)	voltage
+	260	V(X12:NET10)	voltage
+	261	V(X2:XQ5:S1)	voltage
+	262	V(X12:NET20)	voltage
+	263	V(X12:XQ5:T)	voltage
+	264	V(NET9)	voltage
+	265	V(X3:NET21)	voltage
+	266	V(X12:XC2:1)	voltage
+	267	V(X3:XQ5:T)	voltage
+	268	V(X12:NET15)	voltage
+	269	V(NET17)	voltage
+	270	V(X12:XQ10:S1)	voltage
+	271	I(R9)	current
+	272	I(VLD5)	current
+	273	I(X1:XQ10:CSUB)	current
+	274	I(VDD)	current
+	275	I(X12:VMEAS10)	current
+	276	I(VLD2)	current
+	277	I(VDIFF0)	current
+	278	I(VMEAS2)	current
+	279	I(VLD1)	current
+	280	I(VLD4)	current
+	281	I(X2:R8)	current
+	282	I(X2:XQ14:RSUB)	current
+	283	I(VMEAS6)	current
+	284	I(X4:XQ1:RSUB)	current
+	285	I(X12:R3)	current
+	286	I(X12:VMEAS22)	current
+	287	I(X12:XQ1:RSUB)	current
+	288	I(X1:R26)	current
+	289	I(X2:R9)	current
+	290	I(X12:XQ10:RSUB)	current
+	291	I(X1:VMEAS9)	current
+	292	I(X3:R2)	current
+	293	I(X2:R10)	current
+	294	I(X1:XQ8:CSUB)	current
+	295	I(X2:VMEAS1)	current
+	296	I(X3:R8)	current
+	297	I(X12:XQ10:CSUB)	current
+	298	I(X4:XQ10:RSUB)	current
+	299	I(X4:C1)	current
+	300	I(X1:XQ6:CSUB)	current
+	301	I(X12:VMEAS8)	current
+	302	I(X1:R9)	current
+	303	I(X2:R6)	current
+	304	I(X3:R6)	current
+	305	I(X12:XQ5:RSUB)	current
+	306	I(X2:VMEAS2)	current
+	307	I(X3:XQ12:RSUB)	current
+	308	I(X2:XQ3:CSUB)	current
+	309	I(X1:VMEAS10)	current
+	310	I(X4:R1)	current
+	311	I(X2:XQ1:RSUB)	current
+	312	I(X3:VMEAS2)	current
+	313	I(X2:R2)	current
+	314	I(X2:VMEAS8)	current
+	315	I(X1:XQ8:RSUB)	current
+	316	I(X3:XQ4:CSUB)	current
+	317	I(X12:XQ1:CSUB)	current
+	318	I(X4:XQ12:RSUB)	current
+	319	I(X4:VMEAS9)	current
+	320	I(X1:XQ2:RSUB)	current
+	321	I(X3:XQ10:RSUB)	current
+	322	I(X2:R21)	current
+	323	I(VSINGLE)	current
+	324	I(X3:XQ11:RSUB)	current
+	325	I(X4:XQ5:CSUB)	current
+	326	I(X2:VMEAS9)	current
+	327	I(X2:XQ5:RSUB)	current
+	328	I(X12:VMEAS12)	current
+	329	I(X3:XQ8:CSUB)	current
+	330	I(X2:VMEAS14)	current
+	331	I(X2:XQ8:CSUB)	current
+	332	I(X4:XQ7:CSUB)	current
+	333	I(X12:XQ6:RSUB)	current
+	334	I(X1:R8)	current
+	335	I(VDIFF15)	current
+	336	I(X1:R24)	current
+	337	I(X3:XQ7:RSUB)	current
+	338	I(X4:R10)	current
+	339	I(X3:R10)	current
+	340	I(X2:XQ10:CSUB)	current
+	341	I(X2:XQ9:RSUB)	current
+	342	I(X4:XQ8:RSUB)	current
+	343	I(X1:VMEAS6)	current
+	344	I(X3:XQ5:RSUB)	current
+	345	I(X2:XQ8:RSUB)	current
+	346	I(X3:XQ11:CSUB)	current
+	347	I(X2:R3)	current
+	348	I(X12:XQ11:CSUB)	current
+	349	I(X1:XQ2:CSUB)	current
+	350	I(X3:XQ5:CSUB)	current
+	351	I(X4:R8)	current
+	352	I(X4:R3)	current
+	353	I(X3:VMEAS7)	current
+	354	I(X2:VMEAS17)	current
+	355	I(X1:XQ11:CSUB)	current
+	356	I(X4:R12)	current
+	357	I(VZERO)	current
+	358	I(X2:XQ3:RSUB)	current
+	359	I(X2:XQ9:CSUB)	current
+	360	I(X1:R1)	current
+	361	I(X1:XQ1:RSUB)	current
+	362	I(X4:VMEAS17)	current
+	363	I(VSINGLE_ALL)	current
+	364	I(X1:XQ5:CSUB)	current
+	365	I(X1:VMEAS4)	current
+	366	I(X1:XQ7:RSUB)	current
+	367	I(X1:VMEAS14)	current
+	368	I(X12:R1)	current
+	369	I(X1:R28)	current
+	370	I(X4:XQ1:CSUB)	current
+	371	I(X3:R12)	current
+	372	I(X4:VMEAS11)	current
+	373	I(X1:VMEAS13)	current
+	374	I(X2:XQ14:CSUB)	current
+	375	I(X4:XQ10:CSUB)	current
+	376	I(X4:XQ11:RSUB)	current
+	377	I(X4:R5)	current
+	378	I(X2:R5)	current
+	379	I(X3:VMEAS6)	current
+	380	I(X2:R20)	current
+	381	I(X4:R15)	current
+	382	I(X2:XQ11:CSUB)	current
+	383	I(X12:R4)	current
+	384	I(X3:XQ8:RSUB)	current
+	385	I(X3:VMEAS20)	current
+	386	I(X3:XQ7:CSUB)	current
+	387	I(X2:VMEAS28)	current
+	388	I(X4:VMEAS2)	current
+	389	I(X1:R10)	current
+	390	I(X4:XQ4:CSUB)	current
+	391	I(X3:VMEAS19)	current
+	392	I(X2:VMEAS5)	current
+	393	I(X1:R2)	current
+	394	I(X2:XQ10:RSUB)	current
+	395	I(X3:VMEAS10)	current
+	396	I(X2:R23)	current
+	397	I(VDIFF0_ALL)	current
+	398	I(X1:XQ9:RSUB)	current
+	399	I(X2:VMEAS4)	current
+	400	I(X1:XQ14:CSUB)	current
+	401	I(X1:R3)	current
+	402	I(X2:VMEAS7)	current
+	403	I(X4:VMEAS6)	current
+	404	I(X2:XQ6:CSUB)	current
+	405	I(X12:VMEAS7)	current
+	406	I(X2:R28)	current
+	407	I(X4:XQ8:CSUB)	current
+	408	I(X1:XQ3:CSUB)	current
+	409	I(X2:XQ11:RSUB)	current
+	410	I(X4:XQ11:CSUB)	current
+	411	I(X4:XQ12:CSUB)	current
+	412	I(X1:XQ14:RSUB)	current
+	413	I(X12:XQ7:RSUB)	current
+	414	I(X2:R1)	current
+	415	I(X3:R5)	current
+	416	I(R8)	current
+	417	I(X1:R20)	current
+	418	I(X4:VMEAS8)	current
+	419	I(X12:XQ8:RSUB)	current
+	420	I(X1:XQ10:RSUB)	current
+	421	I(X1:R23)	current
+	422	I(X1:VMEAS8)	current
+	423	I(X1:XQ9:CSUB)	current
+	424	I(X4:R9)	current
+	425	I(X2:VMEAS13)	current
+	426	I(X3:XQ10:CSUB)	current
+	427	I(X12:XQ8:CSUB)	current
+	428	I(X1:XQ5:RSUB)	current
+	429	I(X3:VMEAS17)	current
+	430	I(X2:XQ5:CSUB)	current
+	431	I(X4:XQ9:RSUB)	current
+	432	I(X2:XQ2:CSUB)	current
+	433	I(X2:XQ2:RSUB)	current
+	434	I(X2:XQ6:RSUB)	current
+	435	I(X12:VMEAS6)	current
+	436	I(X1:XQ4:CSUB)	current
+	437	I(X2:R24)	current
+	438	I(VMINUS)	current
+	439	I(X3:XQ1:RSUB)	current
+	440	I(X3:XQ12:CSUB)	current
+	441	I(X1:XQ1:CSUB)	current
+	442	I(X1:XQ6:RSUB)	current
+	443	I(X1:XQ11:RSUB)	current
+	444	I(X4:XQ5:RSUB)	current
+	445	I(E2)	current
+	446	I(X1:XQ3:RSUB)	current
+	447	I(X1:R6)	current
+	448	I(X2:XQ7:RSUB)	current
+	449	I(X1:VMEAS5)	current
+	450	I(X4:VMEAS19)	current
+	451	I(X4:C2)	current
+	452	I(X4:XQ4:RSUB)	current
+	453	I(X3:R3)	current
+	454	I(C2)	current
+	455	I(X12:XQ7:CSUB)	current
+	456	I(X12:VMEAS11)	current
+	457	I(C3)	current
+	458	I(X3:C2)	current
+	459	I(VLD3)	current
+	460	I(X2:VMEAS6)	current
+	461	I(X3:R9)	current
+	462	I(X1:VMEAS3)	current
+	463	I(X4:R6)	current
+	464	I(X3:XQ9:RSUB)	current
+	465	I(X4:XQ7:RSUB)	current
+	466	I(X4:XQ9:CSUB)	current
+	467	I(X3:R15)	current
+	468	I(X1:XQ4:RSUB)	current
+	469	I(X12:VMEAS1)	current
+	470	I(X4:XQ3:CSUB)	current
+	471	I(X12:VMEAS4)	current
+	472	I(X1:XQ7:CSUB)	current
+	473	I(X12:R9)	current
+	474	I(X3:VMEAS8)	current
+	475	I(X3:XQ3:RSUB)	current
+	476	I(X3:VMEAS11)	current
+	477	I(X2:XQ4:CSUB)	current
+	478	I(X3:VMEAS28)	current
+	479	I(X2:R26)	current
+	480	I(X2:XQ4:RSUB)	current
+	481	I(X2:XQ7:CSUB)	current
+	482	I(X12:XQ5:CSUB)	current
+	483	I(X2:XQ1:CSUB)	current
+	484	I(X4:VMEAS20)	current
+	485	I(X3:R1)	current
+	486	I(X1:VMEAS17)	current
+	487	I(X3:R4)	current
+	488	I(R5)	current
+	489	I(VDIFF15_ALL)	current
+	490	I(R6)	current
+	491	I(E5)	current
+	492	I(X12:XC2:R1)	current
+	493	I(X1:R5)	current
+	494	I(X12:XQ2:CSUB)	current
+	495	I(X1:R4)	current
+	496	I(X1:VMEAS7)	current
+	497	I(X2:VMEAS3)	current
+	498	I(X2:R4)	current
+	499	I(X12:R19)	current
+	500	I(C4)	current
+	501	I(X4:R2)	current
+	502	I(X4:R7)	current
+	503	I(VMEAS7)	current
+	504	I(VMEAS3)	current
+	505	I(C1)	current
+	506	I(X3:XQ3:CSUB)	current
+	507	I(X12:XQ11:RSUB)	current
+	508	I(X12:VMEAS9)	current
+	509	I(X12:R12)	current
+	510	I(X12:XQ9:RSUB)	current
+	511	I(X4:R4)	current
+	512	I(X12:XQ6:CSUB)	current
+	513	I(X12:VMEAS5)	current
+	514	I(X1:VMEAS2)	current
+	515	I(X12:R5)	current
+	516	I(X12:XQ9:CSUB)	current
+	517	I(X12:XC2:C1)	current
+	518	I(X3:VMEAS3)	current
+	519	I(X4:VMEAS7)	current
+	520	I(X3:C1)	current
+	521	I(X12:R8)	current
+	522	I(X4:VMEAS10)	current
+	523	I(X12:R7)	current
+	524	I(X3:R7)	current
+	525	I(X12:XQ2:RSUB)	current
+	526	I(X1:VMEAS28)	current
+	527	I(X3:VMEAS1)	current
+	528	I(X3:VMEAS9)	current
+	529	I(X4:VMEAS28)	current
+	530	I(VSS)	current
+	531	I(X4:XQ3:RSUB)	current
+	532	I(X3:XQ4:RSUB)	current
+	533	I(X4:VMEAS1)	current
+	534	I(X4:VMEAS3)	current
+	535	I(X3:XQ1:CSUB)	current
+	536	I(X1:R21)	current
+	537	I(X1:VMEAS1)	current
+	538	I(X12:VMEAS13)	current
+	539	I(X2:VMEAS10)	current
+	540	I(X12:VMEAS2)	current
+	541	I(R7)	current
+	542	I(X12:VMEAS3)	current
+	543	I(X3:XQ9:CSUB)	current
+	544	I(E1)	current
+Binary:
+                „c2;.i(@I––ˆô?á¬Ùqà?ýîåˆE*î?ffffff
+@ffffff
+@TYûmŠoâ?Ð#O‘_è?ffffff
+@ÅÜ»u?@ÎµÚŽ(•ö=ffffff
+@        ´‹?;@½É‰°Æø?        ú8¯Ÿµ?ffffff
+@³a½'‹ñ?ékÌ­wó?›b‘‘ó€!>	%q+½€Ù?s/{ö•^ê?láFûÙ?æõIÂò5í?}yÕcù=        ffffff
+@‹ŠÍ[µ¤	@I––ˆô?‰×9$W¦ú?Í1XÙqà?Œc2;.i(@j­!:Š÷÷?        }yÕcù=ffffff
+@–(«2@±²‘€Lkê?ffffff
+@|XÛ»Ö¶ñ=ýîåˆE*î?        »Tå2Wö=úÚh‡q @                ôÞ¥o‹ñ?Øm‡
+@                ú8¯Ÿµ?                ffffff
+@çuG	a	@        ffffff
+@                j­!:Š÷÷?ŒñÅe/ÊÅ?        ³"y›ˆô?káFûÙ?9Z0x™
+@í¬Ùqà?UC)õ=        0;:dƒ¦è?ö8¯Ÿµ?9Z0x™
+@        Ð…KŸµ?Tk™©ˆô?        óØ6?MU!@        («2@ffffff
+@ZÃ¢Ÿˆô?ffffff
+@›·¾Õ‚¦è?ÊRK¨á?‹ñÅe/ÊÅ?D øk·Öâ?ffffffú?ffffffú?Ð#O‘_è?        ffffff
+@        ‡ß^è¹õ=˜ó
+h@        ffffff
+@                ±²‘€Lkê?ßÑ<x™
+@Ñ®Fã?ö8¯Ÿµ?ffffffú?ffffff
+@Œc2;.i(@M.(÷££?Ç'ž¡öõ?˜ó
+h@        kGØdø?ffffff
+@        Mà$ l”?3"!SGLö=9Z0x™
+@        D´U€C @ffffff
+@†/{ö•^ê?Ì¨‹Ðù?ffffffú?	%q+½€Ù?óÞ¥o‹ñ?Ì¨‹Ðù?ffffffú?ÓNÂò5í?Õ
+”ìa¬á?ÜØÍÚçÉÅ?Ãf§Uàðô=ffffff
+@æþÏÁò5í?ÿŽxÜ…»>Ï1XÙqà?„c2;.i(@¢fcØù?»Tå2Wö=F øk·Öâ?žac)$ Þ?ffffff
+@        6Á.®wó?Î'‘‚ˆô?        ˜þ££?ÌÑÏÜo @ùl‡
+@}XÛ»Ö¶ñ=}yÕcù=ffffff
+@ßŽxÜ…»>Œ©of/ÊÅ?ffffff
+@¿…KŸµ?9¯Ÿµ?ü0uÛçÉÅ?                ËÜ»u?@Ò®Fã?Ý¶A›ˆô?        ÌÑÏÜo @ßÑ<x™
+@ffffff
+@æõIÂò5í?ffffff
+@¥½Å<=ø@ffffff
+@ûæËÁò5í?        œá¬Ùqà?úÚh‡q @í¬Ùqà?ffffff
+@Šc2;.i(@º…KŸµ?"FL€C @Ÿac)$ Þ?©/ ds)í?#ƒOÆú?ƒ/ÚŸˆô?""!SGLö=ffffff
+@Tk™©ˆô?ú8¯Ÿµ?³ð_µ¤	@ffffff
+@ffffff
+@        Š×9$W¦ú?²"y›ˆô?ÜØÍÚçÉÅ?0;:dƒ¦è?        ffffff
+@ffffff
+@œ³a½'‹ñ?ffffff
+@ŽGØdø?º…KŸµ?©/ ds)í?        Í'‘‚ˆô?ÒQBâ?        Ÿac)$ Þ?¢fcØù?×m‡
+@#ƒOÆú?ffffff
+@        å×6?MU!@        #ƒOÆú?        ƒ/ÚŸˆô?YÃ¢Ÿˆô?Äf§Uàðô=Ü¶A›ˆô?ö8¯Ÿµ?        |~û‚TÙõ=¾…KŸµ? Eñlsé?¿…KŸµ?Œc2;.i(@9
+ƒ$¨é?8|šTó?ý:*gÒ$õ=ÓNÂò5í?ffffff
+@UC)õ=àkÌ­wó?ü0uÛçÉÅ?Ž¤oÄÂÑí?}yÕcù=šc2;.i(@ìFMê?        ´‹?;@º…KŸµ?ffffff
+@„c2;.i(@ú8¯Ÿµ?0Á.®wó?Œ¤oÄÂÑí?¿…KŸµ?ûæËÁò5í?9Z0x™
+@Õ
+”ìa¬á?ffffff
+@æþÏÁò5í?ffffff
+@        ³ð_µ¤	@        ŒŠÍ[µ¤	@Š˜šžŽ)õ=        ‹©of/ÊÅ?Wü[¼@Ó¦~V¬á?‘I––ˆô?ùl‡
+@E;Éÿ è?Ÿac)$ Þ?E;Éÿ è?ffffff
+@ÃŒÍ¸ïõ=3D<ä `?7D<ä `?        »Àh¥œý¿C|žþI‘?ü[0@êh?;=µÞ”n5?;=µÞ”n5?ü[0@êh?ç„@¾’d?)eYqÎîH?3333Ïwx=±Íu`P?8ËÁòëÍj=Ðf›øZ¸¥¾ÆFÁ+ƒ¡`?£»kÒ8“{=/eYqÎîH?ûíëàù/>l¿Tl=P±	Mép ?2æó¢0ª¾§èàù/¾        ~%¶P?—gH¼~9?        ä^S¼˜Šl=                Ö¾öÍÐ/?§èàù/>öñ›kÙ?ªB‘é^x9?»×îyk=        ˆK“˜l=        /eYqÎîH?íÃ2}2?ÉïÚ«yk=        §TAºÜ?É[³6¦Ù?ìQ¸5{=                ‰K“˜l==Ù‘ •r9?Ház6¼=ú^S¼˜Šl=¢Ö4ó’Ç&¾X´žõXJ?—šçM˜ {=        P±	Mép ?Ház®'k=&'áÝGŽ?        *eYqÎîH?                $¬7jv÷k=/eYqÎîH?±Íu`P?{U”µ]m?ìQ¸Y+„=~ß÷Ô<?~ß÷Ô<?        R¸…kÆj=ÍÌÌÌX+„=Õž;lKŠ?&þW§5	p=
+×£p5{=        É[³6¦Ù?                         gH¼~9?2æó¢0ª¾Jio†µs9?\Ù1ähŽ?        «*ïïÔ<? pojð?<3333Ïwx=        D’”?ÉïÚ«yk=‘H¿*?E³£!7g?        /eYqÎîH?š™™™‰{=/eYqÎîH?sG¯”¿.eYqÎîH?        «*ïïÔ<?ˆp"Á¹s9?öñ›kÙ?                ¼šçM˜ {=ÝeîìÊ?~%¶P?òK™z9?+•t$òò=l^Dïl?        ­S$_S_@¿ÍÌÌÌX+„=ª{ÜÔ?        D’”?        §èàù/¾        l^Dïl?*eYqÎîH?ªTAºÜ? °ŽÈ¬#b=;àÙŽ×”d?)eYqÎîH?¤Üè—k?R¸…kÆj=*eYqÎîH?        Ê[³6¦Ù?7/þˆù?ûK™z9?        `¡ Œ/j?CeYqÎîH?                Âõ(Ïwx=                Âõ(Ïwx=Ê–ˆþáçl=D’”?ÝeîìÊ?ì„@¾’d?œ3¢t$òò=rM‹~
+A?gff¦Û=¡°ŽÈ¬#b=/eYqÎîH?Ê[³6¦Ù?        ª{ÜÔ?öñ›kÙ?                Ház®'k=‘H¿*?        &þW§5	p=        gfff6¼=3333Ïwx=Èo§l©‘?        {U”µ]m? ©ÚV587ËÁòëÍj=                Âõ(Ïwx=3333Ïwx=&þW§5	p=!¦…×Éh½Âõ(Ïwx=öñ›kÙ?¸…ë‰{=/eYqÎîH?l^Dïl?        ÍÌÌÌÌêo=2æó¢0ª¾                `Ÿ½sªÄ#?                ‰ƒ@¾’d?Ôž;lKŠ?ª{ÜÔ?O½ËñÌR?ªB‘é^x9?&þW§5	p=ìQ¸Y+„=        l^Dïl?R¸…¼=                ôÇý ?        D|žþI‘¿rM‹~
+A?…ëQ¸žêo=†p"Á¹s9?        íÃ2}2?)eYqÎîH?R¸…¼=                        ª{ÜÔ?íÃ2}2?\Ù1ähŽ?š	í¢âÊ? \0@êh?\ÂçøÂl? \0@êh?Èo§l©‘?        ~%¶P?        N½ËñÌR?8/þˆù?N½ËñÌR?N½ËñÌR?=ìöÁ=¿        2æó¢0ª¾        p]ÂçøÂl?£Üè—k?                ª§Ïyik=÷ëƒ’]Ü? ŽË7Ž¿àê=Ïk=y	í¢âÊ?        «–¢Š×6?        …û}xûä¿                Š	í¢âÊ?Kio†µs9?        `¡ Œ/j¿ÝÞÙŽ×”d?öëƒ’]Ü¿        Ház.$h=D’”?áeîìÊ?1Ù‘ •r9?íÃ2}2?»Àh¥œý¿…ëQ¸žêo=Ãõ(\Ïêo=ëeîìÊ?€	í¢âÊ?        ¢Ö4ó’Ç&¾~%¶P?=ìöÁ=?CeYqÎîH?­S$_S_@?…ƒ@¾’d?sG¯”?        È¸éàù/>

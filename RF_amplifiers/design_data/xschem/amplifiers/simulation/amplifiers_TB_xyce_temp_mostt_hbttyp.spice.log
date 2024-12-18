@@ -1,0 +1,166 @@
+
+*****
+***** Welcome to the Xyce(TM) Parallel Electronic Simulator
+*****
+***** This is version Xyce DEVELOPMENT-202409220015-(Public_Release-7.8.0-128-g5b74b0d5)-opensource
+***** Date: Sun Dec 15 00:26:39 CET 2024
+
+
+***** Executing netlist /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/simulation/amplifiers_TB_xyce_temp_mostt_hbttyp.spice
+
+***** Reading and parsing netlist...
+***** Setting up topology...
+
+Netlist warning: Voltage Node (X12:XQ8:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ10:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ2:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ1:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (NET17) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ7:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (NET1) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ8:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ14:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ3:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ14:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ11:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ4:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ11:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ2:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ6:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ5:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ2:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ11:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ10:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ8:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (NET6) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ9:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ1:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (NET18) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ4:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ9:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ5:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ9:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ8:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ1:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ5:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ6:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ9:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ12:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ12:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ5:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ7:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ1:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ9:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ1:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ7:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ10:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ3:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ10:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ5:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ8:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (NET7) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ7:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ4:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X2:XQ10:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ11:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ3:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ11:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ7:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X1:XQ6:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X3:XQ4:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X4:XQ3:T) connected to only 1 device Terminal
+Netlist warning: Voltage Node (X12:XQ8:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ10:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ2:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ1:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ7:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X4:XQ8:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ14:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ3:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ14:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ11:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ4:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ11:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ2:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ6:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ5:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ2:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ11:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X4:XQ10:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ8:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X4:XQ9:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ1:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ4:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ9:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ5:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ9:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ8:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ1:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ5:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ6:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ9:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ12:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X4:XQ12:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X4:XQ5:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ7:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X4:XQ1:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X12:XQ9:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ1:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X2:XQ7:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ10:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ3:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X3:XQ10:T) does not have a DC path to ground
+Netlist warning: Voltage Node (X1:XQ5:T) does not have a DC path to ground
+Maximum warning count has been exceeded and will no longer be displayed
+***** Device Count Summary ...
+       C level 1 (Capacitor)                                 62
+       E level 1 (Linear Voltage Controlled Voltage Source)   3
+       Q level 12 (VBIC 1.3 4T)                              53
+       R level 1 (Resistor)                                 122
+       V level 1 (Independent Voltage Source)                87
+       --------------------------------------------------------
+       Total Devices                                        327
+***** Setting up matrix structure...
+***** Number of Unknowns = 837
+***** Initializing...
+
+
+***** Solution Summary *****
+	Number Successful Steps Taken:		17
+	Number Failed Steps Attempted:		0
+	Number Jacobians Evaluated:		1180
+	Number Linear Solves:			1180
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		1443
+	Number Nonlinear Convergence Failures:	0
+	Total Residual Load Time:		0.785002 seconds
+	Total Jacobian Load Time:		0.170639 seconds
+	Total Linear Solution Time:		0.635203 seconds
+
+
+***** Total Simulation Solvers Run Time: 2.04972 seconds
+***** Total Elapsed Run Time:            2.18144 seconds
+*****
+***** End of Xyce(TM) Simulation
+*****
+
+Timing summary of 1 processor
+                 Stats                   Count       CPU Time              Wall Time
+---------------------------------------- ----- --------------------- ---------------------
+Xyce                                         1        1.855 (100.0%)        2.183 (100.0%)
+  Analysis                                   1        1.745 (94.05%)        2.050 (93.88%)
+    DC Sweep                                 1        1.745 (94.05%)        2.050 (93.88%)
+      Solve                                 17        1.737 (93.62%)        2.039 (93.42%)
+        Residual                          1443        0.655 (35.31%)        0.797 (36.51%)
+        Jacobian                          1180        0.152 ( 8.18%)        0.174 ( 7.96%)
+        Linear Solve                      1180        0.567 (30.57%)        0.649 (29.74%)
+      Successful Step                       17        0.001 ( 0.08%)        0.002 ( 0.11%)
+  Netlist Import                             1        0.093 ( 5.01%)        0.110 ( 5.06%)
+    Parse Context                            1        0.014 ( 0.76%)        0.019 ( 0.85%)
+    Distribute Devices                       1        0.073 ( 3.96%)        0.078 ( 3.55%)
+    Verify Devices                           1        0.000 (<0.01%)        0.000 (<0.01%)
+    Instantiate                              1        0.004 ( 0.24%)        0.004 ( 0.20%)
+  Late Initialization                        1        0.014 ( 0.78%)        0.020 ( 0.92%)
+    Global Indices                           1        0.002 ( 0.09%)        0.003 ( 0.12%)
+  Setup Matrix Structure                     1        0.002 ( 0.12%)        0.002 ( 0.10%)
+

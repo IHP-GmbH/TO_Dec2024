@@ -1,0 +1,280 @@
+** sch_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/amplifiers_TB_xyce.sch
+**.subckt amplifiers_TB_xyce
+VDD VDD GND 3.3
+VMINUS signal GND 0 pulse -100m 100m 1u 10n 10n 33u 66u ac 1 0
+VSS GND VSS 0
+Vzero 0 GND 0
+x12 net3 net5 net2 net4 h_single net1 net29 H_SiNGLE nw=1e-06 nl=1e-06 pw=2e-06 pl=1e-06
+E5 net5 net2 signal GND 1
+Vsingle VDD net3 0
+Vsingle_all net4 VSS 0
+x1 net13 net9 net9 net14 h_diff_0dB_cm net6 net30 DiFF_0dBdB nw=1e-06 nl=1e-06 pw=2e-06 pl=1e-06
+x2 net12 net16 net8 net15 h_diff_0dB net7 net31 DiFF_0dBdB nw=1e-06 nl=1e-06 pw=2e-06 pl=1e-06
+E1 net16 net8 signal GND 1
+C1 net9 signal 1p
+C2 net9 signal 1p
+VLD1 VDD net10 1.65
+VLD2 VDD net11 1.65
+Vdiff0 VDD net12 0
+Vmeas2 VDD net13 0
+Vmeas3 net14 VSS 0
+Vdiff0_all net15 VSS 0
+R5 net10 h_diff_0dB 50
+R6 net11 h_diff_0dB_cm 50
+x3 net24 net20 net20 net25 h_diff_15dB_cm net17 net32 H_DiFF_15dB nw=1e-06 nl=1e-06 pw=2e-06 pl=1e-06
+x4 net23 net27 net19 net26 h_diff_15dB net18 net33 H_DiFF_15dB nw=1e-06 nl=1e-06 pw=2e-06 pl=1e-06
+E2 net27 net19 signal GND 1
+C3 net20 signal 1p
+C4 net20 signal 1p
+VLD3 VDD net21 1.65
+VLD4 VDD net22 1.65
+Vdiff15 VDD net23 0
+Vmeas6 VDD net24 0
+Vmeas7 net25 VSS 0
+Vdiff15_all net26 VSS 0
+R7 net21 h_diff_15dB 50
+R8 net22 h_diff_15dB_cm 50
+VLD5 VDD net28 1.65
+R9 net28 h_single 50
+**** begin user architecture code
+
+
+
+
+
+
+
+* schematic: amplifiers_TB_xyce
+* dir:       /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers
+* test:      /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/OTA33_BiAS.sym
+
+* mos_corner:
+* hbt_corner:
+* sim:
+
+
+
+
+
+
+.option temp=27
+
+
+.lib /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/cornerRES.lib     res_typ
+.lib /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/cornerCAP.lib     cap_typ
+
+.lib /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/cornerMOShv.lib   mos_tt
+.lib /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/cornerMOSlv.lib   mos_tt
+.lib /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/cornerHBT.lib     hbt_bcs
+
+.param nw=1e-6
+.param nl=1e-6
+.param pw=2e-6
+.param pl=1e-6
+.param iset=0
+
+*** .step dec iset 1u 10u 3
+
+.dc temp -40 120 10
+.print dc format=raw v(*) i(*)
+
+
+
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/hamp.sym # of pins=7
+** sym_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/hamp.sym
+** sch_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/hamp.sch
+.subckt hamp VDD ip in VSS op sink vGND  nw=1u nl=1u pw=2u pl=1u
+*.ipin in
+*.iopin VSS
+*.iopin VDD
+*.iopin sink
+*.ipin ip
+*.opin op
+*.iopin vGND
+Vmeas1 VSS sink 0
+R1 in VSS 1k
+.ends
+
+
+* expanding   symbol:  /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/H_SiNGLE.sym # of pins=7
+** sym_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/hamp.sym
+** sch_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/H_SiNGLE.sch
+.subckt H_SiNGLE VDD ip in VSS op sink vGND  nw=1u nl=1u pw=2u pl=1u
+*.ipin in
+*.iopin VSS
+*.iopin VDD
+*.iopin sink
+*.ipin ip
+*.opin op
+*.iopin vGND
+**** begin user architecture code
+
+
+
+.MODEL T513 NPN(
++ IS = 8.2840e-17 BF = 107.5 NF = 1.0 VAF = 28.383
++ IKF = 0.48731 ISE = 1.115e-11 NE = 3.19 BR = 5.5
++ NR = 1.0 VAR = 19.705 IKR = 0.02 ISC = 1.9237e-17
++ NC = 1.1720 RBM = 1.3 IRB = 0.00072983 RB = 5.4
++ RE = 0.31111 RC = 4.0 CJE = 1.8063e-15 VJE = 0.8051
++ MJE = 0.46576 TF = 6.76e-12 XTF = 0.4219 VTF = 0.23794
++ ITF = 0.001 PTF = 0 CJC = 2.34e-13 VJC = 0.81969
++ MJC = 0.30232 XCJC = 0.3 TR = 2.324E-09 CJS= 0
++ VJS = 0.75 MJS = 0 XTB = 0 EG = 1.11
++ XTI = 3 FC = 0.73234)
+
+
+
+
+
+
+**** end user architecture code
+Vmeas22 net1 VSS 0
+XQ1 op net14 net1 VSS npn13G2 Nx=10
+Vmeas1 VSS sink 0
+Vmeas3 VDD net3 0
+R1 net2 net3 40k
+Vmeas4 in VSS 0
+XQ5 net2 net2 in VSS npn13G2 Nx=1
+Vmeas6 net4 ip 0
+XQ6 net12 net2 net4 VSS npn13G2 Nx=1
+Vmeas7 VDD net5 0
+R8 net12 net5 40k
+Vmeas8 net6 VSS 0
+XQ7 net18 net15 net6 VSS npn13G2 Nx=1
+Vmeas9 net7 VSS 0
+XQ8 net11 net14 net19 net19 npn13G2 Nx=1
+R7 net7 net19 700
+Vmeas10 VDD net8 0
+R9 net20 net8 5k
+Vmeas11 net9 VSS 0
+XQ10 net14 net12 net9 VSS npn13G2 Nx=1
+Vmeas12 net10 VSS 0
+XQ11 net15 net2 net10 VSS npn13G2 Nx=1
+R12 net15 net11 20k
+Vmeas2 VDD net13 0
+R4 net14 net13 5k
+Vmeas5 net16 VSS 0
+XQ9 net14 net18 net16 VSS npn13G2 Nx=1
+Vmeas13 VDD net17 0
+R19 net18 net17 40k
+R3 net12 net14 10k
+XQ2 net20 net20 net11 net11 npn13G2 Nx=1
+R5 net11 net20 6k
+XC2 net15 net18 cap_cmim w={5*75e-6} l=75e-6
+.ends
+
+
+* expanding   symbol:  /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/DiFF_0dBdB.sym # of pins=7
+** sym_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/hamp.sym
+** sch_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/DiFF_0dBdB.sch
+.subckt DiFF_0dBdB VDD ip in VSS op sink vGND  nw=1u nl=1u pw=2u pl=1u
+*.ipin in
+*.iopin VSS
+*.iopin VDD
+*.iopin sink
+*.ipin ip
+*.opin odp
+*.iopin vGND
+*.opin op
+*.opin odn
+Vmeas17 net1 VSS 0
+Vmeas3 VDD net3 0
+XQ7 net7 net12 net11 net11 npn13G2 Nx=1
+XQ8 net9 net13 net11 net11 npn13G2 Nx=1
+Vmeas1 VDD net4 0
+R4 net3 net7 20k
+R5 net4 net9 20k
+R1 net5 net2 40k
+Vmeas28 VDD net5 0
+XQ4 net10 net9 odp odp npn13G2 Nx=1
+Vmeas6 VDD net10 0
+Vmeas7 VDD net6 0
+Vmeas9 net8 VSS 0
+XQ10 net11 net2 net8 VSS npn13G2 Nx=2
+XQ1 net2 net2 net1 VSS npn13G2 Nx=1
+Vmeas2 VDD sink 0
+XQ2 net6 net7 odn odn npn13G2 Nx=1
+R9 net12 ip 5k
+R10 net13 in 5k
+R20 odn net12 5k
+R21 odp net13 5k
+Vmeas13 net22 VSS 0
+Vmeas14 net23 VSS 0
+XQ14 op net18 net15 net15 npn13G2 Nx=1
+R24 odp net18 5k
+Vmeas8 net24 VSS 0
+XQ5 net17 net17 net16 net16 npn13G2 Nx=1
+R2 odn net17 5k
+R3 net16 net24 2.5k
+R6 net14 net22 2.5k
+R8 net15 net23 111
+XQ9 net18 net17 net14 net14 npn13G2 Nx=1
+Vmeas4 net25 VSS 0
+XQ3 op net18 net19 net19 npn13G2 Nx=1
+R23 net19 net25 111
+Vmeas5 net26 VSS 0
+XQ6 op net18 net20 net20 npn13G2 Nx=1
+R26 net20 net26 111
+Vmeas10 net27 VSS 0
+XQ11 op net18 net21 net21 npn13G2 Nx=1
+R28 net21 net27 111
+.ends
+
+
+* expanding   symbol:  /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/H_DiFF_15dB.sym # of pins=7
+** sym_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/hamp.sym
+** sch_path: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/amplifiers/H_DiFF_15dB.sch
+.subckt H_DiFF_15dB VDD ip in VSS op sink vGND  nw=1u nl=1u pw=2u pl=1u
+*.ipin in
+*.iopin VSS
+*.iopin VDD
+*.iopin sink
+*.ipin ip
+*.opin op
+*.iopin vGND
+Vmeas8 net11 VSS 0
+Vmeas17 net1 VSS 0
+Vmeas3 VDD net7 0
+Vmeas19 VDD net3 0
+Vmeas20 net4 VSS 0
+C1 net6 net5 10f
+XQ7 net5 in net19 net19 npn13G2 Nx=1
+XQ8 net6 ip net20 net20 npn13G2 Nx=1
+Vmeas1 VDD net8 0
+R4 net7 net5 2k
+R5 net8 net6 2k
+R1 net9 net2 55k
+R2 vGND ip 10k
+R3 vGND in 10k
+R9 vGND net4 20k
+R15 net3 vGND 20k
+Vmeas28 VDD net9 0
+XQ9 net10 net2 net11 VSS npn13G2 Nx=1
+XQ5 net10 net2 net11 VSS npn13G2 Nx=1
+XQ3 net12 net5 net22 net22 npn13G2 Nx=1
+XQ4 net18 net6 net21 net21 npn13G2 Nx=1
+Vmeas6 VDD net18 0
+Vmeas7 VDD net12 0
+Vmeas9 net13 VSS 0
+XQ10 net17 net16 net13 VSS npn13G2 Nx=1
+Vmeas10 net14 VSS 0
+XQ11 op net17 net14 VSS npn13G2 Nx=6
+Vmeas11 net15 VSS 0
+XQ12 net16 net16 net15 VSS npn13G2 Nx=1
+R10 net19 net10 33
+R12 net20 net10 33
+R6 net22 net16 4k
+R8 net21 net17 4k
+XQ1 net2 net2 net1 VSS npn13G2 Nx=1
+R7 net22 net23 8k
+C2 net16 net23 .45f
+Vmeas2 VDD sink 0
+.ends
+
+.GLOBAL GND
+.end

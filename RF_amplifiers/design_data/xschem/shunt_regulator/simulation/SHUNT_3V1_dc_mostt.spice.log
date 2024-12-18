@@ -1,0 +1,125 @@
+
+*****
+***** Welcome to the Xyce(TM) Parallel Electronic Simulator
+*****
+***** This is version Xyce DEVELOPMENT-202409220015-(Public_Release-7.8.0-128-g5b74b0d5)-opensource
+***** Date: Sun Dec 15 00:39:39 CET 2024
+
+
+***** Executing netlist /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/shunt_regulator/simulation/SHUNT_3V1_dc_mostt.spice
+
+***** Reading and parsing netlist...
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_moshv_parm.lib at
+ or near line 212
+ No model parameter MUNQSO found for model SG13G2_HV_PMOS_PSP of type
+ PSP103_VA, parameter ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_moshv_parm.lib at
+ or near line 212
+ No model parameter SWNQS found for model SG13G2_HV_PMOS_PSP of type
+ PSP103_VA, parameter ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_hbt_mod.lib at or
+ near line 425
+ No model parameter TRM1 found for model PNPMPA_MOD of type PNP, parameter
+ ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_hbt_mod.lib at or
+ near line 425
+ No model parameter TRM2 found for model PNPMPA_MOD of type PNP, parameter
+ ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_hbt_mod.lib at or
+ near line 425
+ No model parameter TRC1 found for model PNPMPA_MOD of type PNP, parameter
+ ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_hbt_mod.lib at or
+ near line 425
+ No model parameter TRC2 found for model PNPMPA_MOD of type PNP, parameter
+ ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_hbt_mod.lib at or
+ near line 425
+ No model parameter TRE1 found for model PNPMPA_MOD of type PNP, parameter
+ ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_hbt_mod.lib at or
+ near line 425
+ No model parameter TRE2 found for model PNPMPA_MOD of type PNP, parameter
+ ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_moshv_parm.lib at
+ or near line 62
+ No model parameter MUNQSO found for model SG13G2_HV_NMOS_PSP of type
+ PSP103_VA, parameter ignored.
+Netlist warning in file
+ /home/ich/share/pdk/ihp-sg13g2/libs.tech/xyce/models/sg13g2_moshv_parm.lib at
+ or near line 62
+ No model parameter SWNQS found for model SG13G2_HV_NMOS_PSP of type
+ PSP103_VA, parameter ignored.
+***** Setting up topology...
+
+Netlist warning: Voltage Node (REFADJ) connected to only 1 device Terminal
+***** Device Count Summary ...
+       C level 1 (Capacitor)                    6
+       PSP103_VA level 1 (ADMS PSP103_VA)      35
+       Q level 1 (Bipolar Junction Transistor)  1
+       R level 1 (Resistor)                    19
+       V level 1 (Independent Voltage Source)  29
+       ------------------------------------------
+       Total Devices                           90
+***** Setting up matrix structure...
+***** Number of Unknowns = 186
+***** Initializing...
+
+
+***** Solution Summary *****
+	Number Successful Steps Taken:		192
+	Number Failed Steps Attempted:		6
+	Number Jacobians Evaluated:		100155
+	Number Linear Solves:			100155
+	Number Failed Linear Solves:		0
+	Number Residual Evaluations:		102332
+	Number Nonlinear Convergence Failures:	6
+	Total Residual Load Time:		39.7963 seconds
+	Total Jacobian Load Time:		3.04914 seconds
+	Total Linear Solution Time:		8.01111 seconds
+
+	Failed DC sweep steps:		
+		DC Step # 1
+		DC Step # 2
+		DC Step # 3
+		DC Step # 19
+		DC Step # 19
+		DC Step # 19
+
+***** Total Simulation Solvers Run Time: 64.3872 seconds
+***** Total Elapsed Run Time:            64.511 seconds
+*****
+***** End of Xyce(TM) Simulation
+*****
+
+Timing summary of 1 processor
+                 Stats                   Count        CPU Time              Wall Time
+---------------------------------------- ------ --------------------- ---------------------
+Xyce                                          1       59.739 (100.0%)     1:04.513 (100.0%)
+  Analysis                                    1       59.626 (99.81%)     1:04.387 (99.80%)
+    Step                                      1       59.626 (99.81%)     1:04.387 (99.80%)
+      DC Sweep                                6       59.623 (99.81%)     1:04.385 (99.80%)
+        Solve                               198       59.607 (99.78%)     1:04.367 (99.77%)
+          Residual                       102332       38.612 (64.63%)       42.245 (65.48%)
+          Jacobian                       100155        3.149 ( 5.27%)        3.268 ( 5.07%)
+          Linear Solve                   100155        8.033 (13.45%)        8.417 (13.05%)
+        Failed Steps                          6        0.000 (<0.01%)        0.000 (<0.01%)
+        Successful Step                     192        0.009 ( 0.01%)        0.009 ( 0.01%)
+  Netlist Import                              1        0.102 ( 0.17%)        0.109 ( 0.17%)
+    Parse Context                             1        0.016 ( 0.03%)        0.017 ( 0.03%)
+    Distribute Devices                        1        0.083 ( 0.14%)        0.084 ( 0.13%)
+    Verify Devices                            1        0.000 (<0.01%)        0.000 (<0.01%)
+    Instantiate                               1        0.002 (<0.01%)        0.007 ( 0.01%)
+  Late Initialization                         1        0.009 ( 0.02%)        0.013 ( 0.02%)
+    Global Indices                            1        0.001 (<0.01%)        0.004 (<0.01%)
+  Setup Matrix Structure                      1        0.001 (<0.01%)        0.001 (<0.01%)
+
