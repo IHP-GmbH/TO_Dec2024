@@ -4,7 +4,7 @@
 
 project = 'FMD_QNC_amps_filled'
 copyright = '2024, iHP Open PDK'
-author = 'FMD_QNC_amps_filled Authors'
+author = 'oliver munz'
 
 release = '0.1'
 version = '0.1.0'

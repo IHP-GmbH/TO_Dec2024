@@ -12,12 +12,10 @@ there are 6 resistors available to measure:
 3 in X and Y orientations
 and both versions as dummy and normal resistors
 
-
 sg13g2
 #######
 
 there is a fast BjT for measurements.
-
 
 calibration kit
 ###############

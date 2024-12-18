@@ -1,7 +1,15 @@
 
-#####################
-3 SiGe BjT amplifiers
-#####################
+##########################################
+Three SiGe HBT amplifiers
+##########################################
+
+.. warning::
+    this chip is designed without correct LVS. only parts are really verified...
+
+.. image:: _static/chip.png
+    :align: center
+
+\
 
 .. toctree::
     :hidden:
@@ -14,9 +22,6 @@
     designdata
     validation
 
-.. warning::
-    this chip is designed without correct LVS. only parts are really verified...
+.. only:: latex
 
-.. image:: _static/chip.png
-    :align: center
-
+    .. contents::

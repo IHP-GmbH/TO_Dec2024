@@ -42,8 +42,15 @@ there are 3 different amplifiers, a voltage-regulator and some experiments
 pinout
 ######
 
-.. image:: _static/pinout.svg
-    :align: center
+.. only:: html
+
+    .. image:: _static/pinout.svg
+        :align: center
+
+.. only:: latex
+    
+    .. image:: _static/pinout.eps
+        :align: center
 
 signals
 #######
@@ -79,9 +86,9 @@ signals
    * - dout     
      - differential amplifier laser diode output
    * - dd-     
-     - double differential amplifier inverting input. connected together over two 50Ω
+     - double differential amplifier inverting input. connected together over two 50\Omega
    * - dd+     
-     - double differential amplifier non-inverting input. connected together over two 50Ω
+     - double differential amplifier non-inverting input. connected together over two 50\Omega
    * - ddout     
      - double differential amplifier laser diode output
 

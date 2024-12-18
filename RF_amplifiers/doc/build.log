@@ -1,3 +1,1 @@
-
-Sphinx error:
-Builder name docs not registered or available through entry point
+/ALL/git_olisnr/TO_Dec2024/RF_amplifiers/doc/source/ota.rst:57: WARNING: download file not readable: /ALL/git_olisnr/TO_Dec2024/RF_amplifiers/design_data/xschem/simulations/OTA33_test_mc_xyce_01.Xsch [download.not_readable]
