@@ -1,0 +1,4 @@
+Xyce "$N" -plugin $env(PDK_ROOT)/$env(PDK)/libs.tech/xyce/plugins/Xyce_Plugin_PSP103_VA.so -l "$N.log"
+
+mpirun Xyce "$N" -plugin $env(PDK_ROOT)/$env(PDK)/libs.tech/xyce/plugins/Xyce_Plugin_PSP103_VA.so  -l "$N.log"
+

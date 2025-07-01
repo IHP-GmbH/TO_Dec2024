@@ -1,21 +1,27 @@
 
-********************************************************
-Welcome to Amazing Design Open Source PDK documentation!
-********************************************************
+##########################################
+Three SiGe HBT amplifiers
+##########################################
 
+.. warning::
+    this chip is designed without correct LVS. only parts are really verified...
+
+.. image:: _static/chip.png
+    :align: center
+
+\
 
 .. toctree::
     :hidden:
     
     specification
+    amplifiers
+    regulator
+    ota
+    experiments
     designdata
     validation
 
-.. warning::
-    This documentation is currently a **work in progress**.
+.. only:: latex
 
-.. image:: _static/IHP_logo.png
-    :align: center
-    :alt: IHP Logo Image.
-    :width: 400
-
+    .. contents:: Table of Contents
